@@ -1,0 +1,70 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+}
+
+article {
+	border: 1px solid lightblue;
+	display: inline-block;
+	width: 30%;
+	margin: 0 1%;
+	float: left;
+	padding-bottom: .5rem;
+}
+
+header.cardTitle {
+	border: 1px dotted lightgrey;
+	text-align: center;
+}
+
+img {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+p.description {
+	text-align: justify;
+	padding: 0 10px;
+}
+
+.availability {
+	background: #666;
+	font-size: .8rem;
+	font-weight: 400;
+	color: yellow;
+	padding: 5px 7px;
+}
+
+.specifications h3, .pricingTitle h3 {
+	padding: 0 10px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.specifications h3 {
+	font-size: 1.1rem;
+}
+
+.size, .weight {
+	font-weight: bold;
+	font-size: .8rem;
+	padding: 0 20px;
+	margin: 0;
+}
+
+footer p {
+	font-size: .65rem;
+	margin: 5px 2px;
+}
+
+.priceQty {
+	font-weight: bold;
+	font-size: .9rem;
+	padding: 0 20px;
+	margin: 0;
+}
